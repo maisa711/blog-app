@@ -21,7 +21,7 @@ const PostForm = ({ type, post, setPost, submitting, handleSubmit, handleCancel 
             onChange={(e:any) => setPost({ ...post, title: e.target.value })}
             required
             placeholder="Write your title here..."
-            id="productTitle"
+            id="postTitle"
             classNameCont='w-full text-main-text'
             className="rounded-lg py-2 bg-card-bg backdrop-blur-md w-full h-10 px-4 shadow-lg outline-none focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
             label='Your Post Title'
@@ -32,7 +32,7 @@ const PostForm = ({ type, post, setPost, submitting, handleSubmit, handleCancel 
             onChange={(e:any) => setPost({ ...post, description: e.target.value })}
             required
             placeholder="Write your description here..."
-            id="productDesc"
+            id="postDesc"
             classNameCont='w-full text-main-text'
             className="rounded-lg py-2 bg-card-bg backdrop-blur-md w-full h-10 px-4 shadow-lg outline-none focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50"
             label='Your Post Description'

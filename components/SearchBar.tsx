@@ -7,7 +7,7 @@ const SearchBar = ({searchQuery,handleSearchChange}:any) => {
     <form className="flex w-full justify-center ">
         <InputField
           type="text"
-          placeholder="Search for a product..."
+          placeholder="Search for a post..."
           value={searchQuery}
           onChange={handleSearchChange}
           classNameCont="w-full"

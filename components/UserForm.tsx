@@ -89,13 +89,13 @@ const UserForm = ({ UserAuth }:any) => {
 
                     {!UserAuth && (
                         <div className="mt-6">
-                            <label className='w-full flex justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-accent-hover hover:bg-accent cursor-pointer ' htmlFor="productImage">Upload Image</label>
+                            <label className='w-full flex justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-accent-hover hover:bg-accent cursor-pointer ' htmlFor="postImage">Upload Image</label>
                             <input
                                 type='file'
                                 accept='image/*'
                                 onChange={(e: any) => handleImageChange(e, formValues, setFormValues, selectedImage, setSelectedImage)}
                                 required
-                                id="productImage"
+                                id="postImage"
                                 className="hidden"
                             />
                             {formValues.image && (

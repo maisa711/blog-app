@@ -188,7 +188,7 @@ export const DisplayUserProfileMain = ({ session, user, isEditing, setIsEditing,
                 {session?.user?.id === user.id && isEditing ? (
                     <>
                         <label
-                            htmlFor="productImage"
+                            htmlFor="postImage"
                             className="h-20 w-20 rounded-full flex items-center justify-center cursor-pointer relative"
                         >
                             <div className="absolute inset-0">
@@ -208,7 +208,7 @@ export const DisplayUserProfileMain = ({ session, user, isEditing, setIsEditing,
                                 accept="image/*"
                                 onChange={(e) => { handleImageChange(e, selectedImage, setSelectedImage, editedContent, setEditedContent) }}
                                 required
-                                id="productImage"
+                                id="postImage"
                                 className="hidden"
                             />
                         </label>

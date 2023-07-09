@@ -68,7 +68,7 @@ export const handleSignOut = async (auth: Auth) => {
     }
 };
 
-// add product to firestore
+// add post to firestore
 export const addPost = async (post: Post, session: Session, closeModal: () => void) => {
     await addDoc(collection(db, "posts"), {
         title: post.title,
