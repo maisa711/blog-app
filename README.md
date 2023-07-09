@@ -1,2 +1,2 @@
-Npm i
-Npm run dev
+-Npm i
+-Npm run dev
